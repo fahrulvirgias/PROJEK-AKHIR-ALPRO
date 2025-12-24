@@ -1,0 +1,6 @@
+101|Toyota Supra|Sport|300000|0
+102|BMW M4|Coupe|250000|0
+103|Ferrari SF90|Supercar|800000|0
+104|McLaren 720s|Supercar|1500000|0
+105|Porsche 911|Sport|1500000|1
+106|Lamborghini Revuelto|Supercar|1500000|1
