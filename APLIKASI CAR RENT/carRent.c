@@ -30,7 +30,7 @@ typedef struct {
 void sistem_inisialisasi(RentalSystem *sys);
 void sistem_simpanKeFile(const RentalSystem *sys);
 bool sistem_muatDariFile(RentalSystem *sys);
-int sistem_cariMobilByID(const RentalSystem *sys, int id); l
+int sistem_cariMobilByID(const RentalSystem *sys, int id); 
 
 void tampilkanHeader();
 void menuLihatMobil(const RentalSystem *sys);
@@ -95,12 +95,12 @@ void sistem_inisialisasi(RentalSystem *sys) {
         sys->jumlahMobil = 0; // Pastikan jumlah mobil adalah 0 sebelum inisialisasi
 
         // Data Mobil Awal
-        sys->daftarMobil[0] = (Mobil){101, "Toyota Supra", "Sport", 300000, TERSEDIA};
-        sys->daftarMobil[1] = (Mobil){102, "BMW M4", "Coupe", 250000, TERSEDIA};
-        sys->daftarMobil[2] = (Mobil){103, "Ferrari SF90", "Supercar", 800000, TERSEDIA};
-        sys->daftarMobil[3] = (Mobil){104, "McLaren 720s", "Supercar", 1500000, TERSEDIA};
-        sys->daftarMobil[4] = (Mobil){105, "Porsche 911", "Sport", 1500000, TERSEDIA};
-        sys->daftarMobil[5] = (Mobil){106, "Lamborghini Revuelto", "Supercar", 1500000, TERSEDIA};
+        sys->daftarMobil[0] = (Mobil){1, "Toyota Supra", "Sport", 300000, TERSEDIA};
+        sys->daftarMobil[1] = (Mobil){2, "BMW M4", "Coupe", 250000, TERSEDIA};
+        sys->daftarMobil[2] = (Mobil){3, "Ferrari SF90", "Supercar", 800000, TERSEDIA};
+        sys->daftarMobil[3] = (Mobil){4, "McLaren 720s", "Supercar", 1500000, TERSEDIA};
+        sys->daftarMobil[4] = (Mobil){5, "Porsche 911", "Sport", 1500000, TERSEDIA};
+        sys->daftarMobil[5] = (Mobil){6, "Lamborghini Revuelto", "Supercar", 1500000, TERSEDIA};
         sys->jumlahMobil = 6;
 
         sistem_simpanKeFile(sys);
